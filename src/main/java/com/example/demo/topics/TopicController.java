@@ -13,7 +13,6 @@ public class TopicController {
     @RequestMapping("/topics")
     public List<Topics> topics(){
         return topicServices.getAll();
-
     }
 
     @RequestMapping("/topics/{id}")
